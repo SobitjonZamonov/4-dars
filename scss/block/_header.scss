@@ -2,6 +2,7 @@
 
 .header {
     width: 1440px;
+    height: 517px;
     background-color: $_color1;
     margin: auto;
 }
@@ -16,7 +17,7 @@
 .bg__photo1 {
     position:absolute;
     left: 1380px;
-    top: 18rem;
+    top: 20rem;
 }
 
 
@@ -44,15 +45,39 @@
 
 
 .header .container button {
-    border: 2px solid #fff;
-    border-radius: 24px;
-    padding: 10px 30px;
-    background: transparent;
-    font-family: var(--livvic-semibold-italic);
+    @include btn;
+    color: white;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+
+.hero__text {
+    margin-top: 40px;
+    margin-bottom: 100px;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 156%;
+    color: #fff;
+}
+
+.hero__info {
+    font-family: var(--font-family);
     font-weight: 600;
     font-size: 18px;
     line-height: 156%;
     color: #fff;
-    cursor: pointer;
+}
+
+
+.hero__info p {
+    width: 680px;
+    height: 112px;
 }
 

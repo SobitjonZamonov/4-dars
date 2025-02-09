@@ -29,15 +29,9 @@
 }
 
 .service3-position button {
-    font-family: var(--font-family);
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 156%;
+    @include btn;
     color: #012f34;
-    background: transparent;
-    border-radius: 24px;
-    padding: 9px 30px;
-    cursor: pointer;
+    border: 1px solid #012f34;
 }
 
 

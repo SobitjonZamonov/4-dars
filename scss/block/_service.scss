@@ -1,5 +1,6 @@
 .services1 {
     width: 1440px;
+    height: 1002px;
     background-color: $_color2;
     margin: auto;
 }
@@ -15,7 +16,12 @@
     top: 1410px;
 }
 
-.services1 .container .services__tittle {
+.services1 .container {
+    width: 1110px;
+    height: 722px;
+}
+
+.services__tittle {
     font-family: var(--font-family);
     font-weight: 700;
     font-size: 48px;
@@ -59,11 +65,10 @@
     margin: 0;
 }
 
-.services-win1-fullname svg {
-    position: relative;
-    left: 40%;
+.services-win1-fullname img {
+    position: absolute;
+    left: 22%;
     margin-top: 10px;
-    
 }
 
 
@@ -100,11 +105,12 @@
     line-height: 167%;
     text-align: center;
     color: #fff;
+    margin: 0;
 }
 
-.services-win2-fullname svg {
-    position: relative;
-    left: 40%;
+.services-win2-fullname img {
+    position: absolute;
+    left: 48%;
     margin-top: 10px;
 }
 
@@ -143,11 +149,12 @@
     line-height: 167%;
     text-align: center;
     color: #fff;
+    margin: 0;
 }
 
-.services-win3-fullname svg {
-    position: relative;
-    left: 40%;
+.services-win3-fullname img {
+    position: absolute;
+    left: 75%;
     margin-top: 10px;
     
 }
@@ -189,9 +196,10 @@
     line-height: 167%;
     text-align: center;
     color: #fff;
+    margin: 0;
 }
 
-.services-win4-fullname svg {
+.services-win4-fullname img {
     position: relative;
     left: 40%;
     margin-top: 10px;
@@ -231,9 +239,10 @@
     line-height: 167%;
     text-align: center;
     color: #fff;
+    margin: 0;
 }
 
-.services-win5-fullname svg {
+.services-win5-fullname img {
     position: relative;
     left: 40%;
     margin-top: 10px;
@@ -278,13 +287,14 @@
     margin-top: 10px;
 }
 
-
-.services__win6 svg {
+.button__image img {
+    width: 56px;
+    height: 56px;
     position: relative;
-    right: 15%;
-    top: 20%;
-    
+    left: 6%;
+    margin-top: -10px;
 }
+
 
 
 // ////////////////////////////////////////////////////
