@@ -1,0 +1,43 @@
+.services3  .container{
+    width: 1440px;
+    height: 200px;
+    background-color: $_color4;
+    margin: auto;
+}
+
+.service3-position {
+    display: flex;
+    gap: 290px;
+    padding: 76px ;
+    margin-left: 263px;
+}
+
+.bg__photo5 {
+    position: absolute;
+    left: 40px;
+    right: 40px;
+    top: 1970px;
+}
+
+
+.service3-position h2 {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 100%;
+    color: #012f34;
+}
+
+.service3-position button {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 156%;
+    color: #012f34;
+    background: transparent;
+    border-radius: 24px;
+    padding: 9px 30px;
+    cursor: pointer;
+}
+
+

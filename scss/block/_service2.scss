@@ -1,0 +1,36 @@
+.services2  .container{
+    width: 1440px;
+    height: 437px;
+    background-color: $_color3;
+    margin: auto;
+}
+
+
+.bg__photo4 {
+    position: absolute;
+    left: 40px;
+}
+
+.services2 .container h2 {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 100%;
+    text-align: center;
+    color: #fff;
+    padding-top: 140px;
+    padding-left: 260px;
+    padding-right: 260px;
+}
+
+
+
+.services2 .container img {
+    display: flex;
+    width: 1110px;
+    height: 45px;
+    margin-top: 64px;
+    margin-left: 165px;
+    margin-right: 165px;
+}
+
