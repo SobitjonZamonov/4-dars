@@ -5,22 +5,21 @@
     margin: auto;
 }
 
-.service3-position {
+.service3-elements {
     display: flex;
     gap: 290px;
     padding: 76px ;
     margin-left: 263px;
 }
 
-.bg__photo5 {
-    position: absolute;
-    left: 40px;
-    right: 40px;
-    top: 2007px;
-}
+// .bg__photo5 {
+//     position: absolute;
+//     left: 40px;
+//     right: 40px;
+//     top: 2012px;
+// }
 
-
-.service3-position h2 {
+.service3-elements h2 {
     font-family: var(--font-family);
     font-weight: 700;
     font-size: 48px;
@@ -28,10 +27,41 @@
     color: #012f34;
 }
 
-.service3-position button {
+.service3-elements button {
     @include btn;
     color: #012f34;
     border: 1px solid #012f34;
 }
+
+
+@media screen and (min-width:768px) {
+    .services3  .container{
+        width: 768px;
+        height: 200px;
+        background-color: $_color4;
+        margin: auto;
+    }
+
+    .service3-elements {
+        display: flex;
+        gap: 110px;
+        justify-content: center;
+        align-items: center;
+    }
+    .service3-elements h2 {
+        font-family: var(--font-family);
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 100%;
+        color: #012f34;
+    }
+    
+    .service3-elements button {
+        @include btn;
+        color: #012f34;
+        border: 1px solid #012f34;
+    }
+}
+
 
 

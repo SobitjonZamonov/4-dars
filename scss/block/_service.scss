@@ -3,23 +3,32 @@
     height: 1002px;
     background-color: $_color2;
     margin: auto;
-}
-
-.bg__photo2 {
-    position:absolute;
-    left: 40px;
-}
-
-.bg__photo3 {
-    position: absolute;
-    right: 40px;
-    top: 1410px;
+    display: flex;
+    justify-content: center
 }
 
 .services1 .container {
     width: 1110px;
     height: 722px;
 }
+
+// Background photos
+///////////////////////////////////////////////
+
+// .bg__photo2 {
+//     position:absolute;
+//     left: 40px;
+// }
+
+// .bg__photo3 {
+//     position: absolute;
+//     right: 40px;
+//     top: 1420px;
+// }
+
+
+// Tittle
+//////////////////////////////////////////////////
 
 .services__tittle {
     font-family: var(--font-family);
@@ -28,14 +37,18 @@
     line-height: 100%;
     text-align: center;
     color: #fff;
-    padding: 140px 0;
+    padding: 140px 140px 64px;
 }
+
+
+// 1 st window
+/////////////////////////////////////////////////////
 
 
 .services1 .container .services__win1 {
     width: 350px;
-    height: 253px;
-    background: #012f34;
+    height: 281px;
+    background: $_color3;
 }
 
 .services-win1 {
@@ -66,19 +79,19 @@
 }
 
 .services-win1-fullname img {
-    position: absolute;
-    left: 22%;
-    margin-top: 10px;
+    position: relative;
+    left: 150px;
+    margin-top: 40px;
 }
 
 
-
-// ////////////////////////////////////////////////////
+// 2 nd window
+/////////////////////////////////////////////////////
 
 .services1 .container .services__win2 {
     width: 350px;
-    height: 253px;
-    background: #012f34;
+    height: 281px;
+    background: $_color3;
 }
 
 .services-win2 {
@@ -109,20 +122,17 @@
 }
 
 .services-win2-fullname img {
-    position: absolute;
-    left: 48%;
-    margin-top: 10px;
+    position: relative;
+    left: 150px;
+    margin-top: 40px;
 }
 
-
-// ////////////////////////////////////////////////////
-
-
-
+// 3 rd window
+/////////////////////////////////////////////////////
 .services1 .container .services__win3 {
     width: 350px;
-    height: 253px;
-    background: #012f34;
+    height: 281px;
+    background: $_color3;
 }
 
 .services-win3 {
@@ -153,23 +163,19 @@
 }
 
 .services-win3-fullname img {
-    position: absolute;
-    left: 75%;
-    margin-top: 10px;
+    position: relative;
+    left: 150px;
+    margin-top: 40px;
     
 }
 
 
-
-// ////////////////////////////////////////////////////
-
-
-
-
+// 4 th window
+/////////////////////////////////////////////////////
 .services1 .container .services__win4 {
     width: 350px;
-    height: 253px;
-    background: #012f34;
+    height: 281px;
+    background: $_color3;
 }
 
 .services-win4 {
@@ -201,18 +207,16 @@
 
 .services-win4-fullname img {
     position: relative;
-    left: 40%;
-    margin-top: 10px;
-    
+    left: 150px;
+    margin-top: 40px;
 }
 
-
-// ////////////////////////////////////////////////////
-
+// 5 th window
+/////////////////////////////////////////////////////
 .services1 .container .services__win5 {
     width: 350px;
-    height: 253px;
-    background: #012f34;
+    height: 281px;
+    background: $_color3;
 }
 
 .services-win5 {
@@ -244,19 +248,20 @@
 
 .services-win5-fullname img {
     position: relative;
-    left: 40%;
-    margin-top: 10px;
+    left: 150px;
+    margin-top: 40px;
     
 }
 
-
-// ////////////////////////////////////////////////////
-
-
+// 6 th window
+/////////////////////////////////////////////////////
 .services1 .container .services__win6 {
     width: 350px;
-    height: 253px;
-    background: #012f34;
+    height: 281px;
+    background: #002529;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .services__win6 h3 {
@@ -266,7 +271,7 @@
     line-height: 156%;
     text-align: center;
     color: #79c8c7;
-    padding: 35px 0
+    padding: 35px 8px 10px 10px
 }
 
 .services__win6 p {
@@ -277,36 +282,331 @@
     text-align: center;
     color: #fff;
     width: 254px;
-    margin-left: 48px;
+    margin: 0;
 }
 
 .services__win6 img {
     width: 60px;
     height: 20px;
-    margin-left: 145px;
-    margin-top: 10px;
+    position: relative;
+    left: 100px;
+    margin-top: 20px;
 }
 
 .button__image img {
     width: 56px;
     height: 56px;
     position: relative;
-    left: 6%;
-    margin-top: -10px;
+    left: 110px;
+    top: 50px;
+    margin: 0;
 }
 
 
-
+// grid
 // ////////////////////////////////////////////////////
-
-
 .win__position {
     display: grid;
     grid-template-columns: 400px 400px auto;
-    row-gap: 48px;
+    row-gap: 60px;
     justify-content: center;
     padding-bottom: 140px;
 }
 
 
+
+@media screen and (min-width:768px) {
+    .services1 {
+        width: 768px;
+        height: 1219px;
+        background-color: $_color2;
+        margin: auto;
+        display: flex;
+        justify-content: center
+    }
+    
+    .services1 .container {
+        display: inline;
+        align-items: center;
+    }
+
+    .services__tittle {
+        font-family: var(--font-family);
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 100%;
+        text-align: center;
+        color: #fff;
+        margin: -30px;
+    }
+
+
+    // 1 st window
+    /////////////////////////////////////////////////////
+    .services1 .container .services__win1 {
+        width: 281px;
+        height: 281px;
+        background: $_color3;
+    }
+
+    .services-win1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 32px 0;
+    }
+
+    .services-win1-fullname h3 {
+        font-family: var(--font-family);
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 156%;
+        text-align: center;
+        color: #79c8c7;
+    }
+
+    .services-win1-fullname p {
+        font-family: var(--font-family);
+        font-style: italic;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 167%;
+        text-align: center;
+        color: #fff;
+        margin: 0;
+    }
+
+    .services-win1-fullname img {
+        position: relative;
+        left: 120px;
+        margin-top: 40px;
+    }
+
+    // 2 nd window
+    /////////////////////////////////////////////////////
+
+    .services1 .container .services__win2 {
+        width: 281px;
+        height: 281px;
+        background: $_color3;
+    }
+
+    .services-win2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 32px 0;
+    }
+
+    .services-win2-fullname h3 {
+        font-family: var(--font-family);
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 156%;
+        text-align: center;
+        color: #79c8c7;
+    }
+
+    .services-win2-fullname p {
+        font-family: var(--font-family);
+        font-style: italic;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 167%;
+        text-align: center;
+        color: #fff;
+        margin: 0;
+    }
+
+    .services-win2-fullname img {
+        position: relative;
+        left: 120px;
+        margin-top: 40px;
+    }
+
+
+    // 3 rd window
+    /////////////////////////////////////////////////////
+    .services1 .container .services__win3 {
+        width: 281px;
+        height: 281px;
+        background: $_color3;
+    }
+
+    .services-win3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 32px 0;
+    }
+
+    .services-win3-fullname h3 {
+        font-family: var(--font-family);
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 156%;
+        text-align: center;
+        color: #79c8c7;
+    }
+
+    .services-win3-fullname p {
+        font-family: var(--font-family);
+        font-style: italic;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 167%;
+        text-align: center;
+        color: #fff;
+        margin: 0;
+    }
+
+    .services-win3-fullname img {
+        position: relative;
+        left: 120px;
+        margin-top: 40px;
+        
+    }
+
+
+    // 4 th window
+    /////////////////////////////////////////////////////
+    .services1 .container .services__win4 {
+        width: 281px;
+        height: 281px;
+        background: $_color3;
+    }
+
+    .services-win4 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 32px 0;
+    }
+
+    .services-win4-fullname h3 {
+        font-family: var(--font-family);
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 156%;
+        text-align: center;
+        color: #79c8c7;
+    }
+
+    .services-win4-fullname p {
+        font-family: var(--font-family);
+        font-style: italic;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 167%;
+        text-align: center;
+        color: #fff;
+        margin: 0;
+    }
+
+    .services-win4-fullname img {
+        position: relative;
+        left: 120px;
+        margin-top: 40px;
+    }
+
+    // 5 th window
+    /////////////////////////////////////////////////////
+    .services1 .container .services__win5 {
+        width: 281px;
+        height: 281px;
+        background: $_color3;
+    }
+
+    .services-win5 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 32px 0;
+    }
+
+    .services-win5-fullname h3 {
+        font-family: var(--font-family);
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 156%;
+        text-align: center;
+        color: #79c8c7;
+    }
+
+    .services-win5-fullname p {
+        font-family: var(--font-family);
+        font-style: italic;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 167%;
+        text-align: center;
+        color: #fff;
+        margin: 0;
+    }
+
+    .services-win5-fullname img {
+        position: relative;
+        left: 120px;
+        margin-top: 40px;
+    }
+    // 6 th window
+    /////////////////////////////////////////////////////
+    .services1 .container .services__win6 {
+        width: 281px;
+        height: 281px;
+        background: #002529;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .services__win6 h3 {
+        font-family: var(--font-family);
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 156%;
+        text-align: center;
+        color: #79c8c7;
+        padding: 35px 8px 10px 10px
+    }
+
+    .services__win6 p {
+        font-family: var(--font-family);
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 167%;
+        text-align: center;
+        color: #fff;
+        width: 254px;
+        margin: 0;
+    }
+
+    .services__win6 img {
+        width: 60px;
+        height: 20px;
+        position: relative;
+        left: 100px;
+        margin-top: 20px;
+    }
+
+    .button__image img {
+        width: 56px;
+        height: 56px;
+        position: relative;
+        left: 80px;
+        top: 50px;
+        margin: 0;
+    }
+
+
+    // grid
+    // ////////////////////////////////////////////////////
+    .win__position {
+        display: grid;
+        grid-template-columns: 300px 300px;
+        row-gap: 60px;
+        justify-content: center;
+    }
+
+}
 

@@ -5,11 +5,10 @@
     margin: auto;
 }
 
-
-.bg__photo4 {
-    position: absolute;
-    left: 40px;
-}
+// .bg__photo4 {
+//     position: absolute;
+//     left: 40px;
+// }
 
 .services2 .container h2 {
     font-family: var(--font-family);
@@ -23,8 +22,6 @@
     padding-right: 260px;
 }
 
-
-
 .services2 .container img {
     display: flex;
     width: 1110px;
@@ -32,5 +29,34 @@
     margin-top: 64px;
     margin-left: 165px;
     margin-right: 165px;
+}
+
+@media screen and (min-width:768px) {
+    .services2 .container{
+        width: 768px;
+        height: 308px;  
+        background-color: $_color3;
+        margin: auto;
+    }
+
+
+    .services2 .container h2 {
+        font-family: var(--font-family);
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 100%;
+        text-align: center;
+        color: #fff;
+        padding: 80px 20px 20px;
+    }
+
+    .services2 .container img {
+        width: 689px;
+        height: 35px;
+        margin-top: 30px;
+        margin-bottom: 0;
+        margin-left: 40px;
+    }
+    
 }
 
